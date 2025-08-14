@@ -1,4 +1,4 @@
-name: Node.js pull request verify
+name: NX Pull request verify
 
 on:
   pull_request: {}
@@ -24,12 +24,12 @@ jobs:
 
       - id: lint-step
         name: Run lint
-        run: npm run lint
+        run: npx nx affected --target=lint --head=HEAD --base=origin/main
 
       - id: test-step
         name: Run tests
-        run: npm run test
-        
+        run: npx nx affected --target=test --head=HEAD --base=origin/main
+
       - id: build-step
         name: Build package
-        run: npm run build
+        run: npx nx affected --target=build --head=HEAD --base=origin/main
