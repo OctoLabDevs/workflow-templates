@@ -1,3 +1,21 @@
+# -----------------------------------------------------------------------------
+# Node.js Pull Request Verify
+#
+# 📄 Description:
+#   Verifies the quality of pull requests in a Node.js project.
+#   Runs linting, tests, and builds to ensure that changes
+#   comply with standards before merging.
+#
+# 📥 Expected inputs:
+#   - node-version: Node.js version to use (default: 22)
+#
+# 🔗 References:
+#   - https://github.com/actions/checkout
+#   - https://github.com/actions/setup-node
+#   - https://docs.github.com/en/actions
+#
+# -----------------------------------------------------------------------------
+
 name: Node.js pull request verify
 
 on:

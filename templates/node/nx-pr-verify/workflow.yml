@@ -1,4 +1,24 @@
-name: NX Pull request verify
+# -----------------------------------------------------------------------------
+# NX Pull Request Verify
+#
+# 📄 Description:
+#   Verifies the quality of pull requests in an NX monorepo.
+#   Runs linting, tests, and builds only for the affected projects
+#   to ensure changes comply with standards before merging.
+#
+# 📥 Expected inputs:
+#   - node-version: Node.js version to use (default: 22)
+#   - base-branch: Branch to compare against for affected detection (default: origin/main)
+#
+# 🔗 References:
+#   - https://github.com/actions/checkout
+#   - https://github.com/actions/setup-node
+#   - https://nx.dev
+#   - https://docs.github.com/en/actions
+#
+# -----------------------------------------------------------------------------
+
+name: NX pull request verify
 
 on:
   pull_request: {}

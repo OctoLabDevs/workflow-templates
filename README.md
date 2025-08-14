@@ -16,11 +16,11 @@
 
 ## ✨ Why this repository?
 
-- **Battle-tested defaults**: Templates start secure and fast out of the box: least-privilege `permissions`, sensible caching, and a clear convention for `secrets/` and `vars/`. No guesswork, just production-ready YAML you can trust across common stacks.
+- **Battle-tested defaults**: Templates are safe and fast right out of the box. No guesswork, just production-ready YAML you can trust across all common stacks.
 
 - **Fast to adopt**: Every template comes with a concise README, a copy-paste snippet, prerequisites, and quick troubleshooting. You can drop it into `.github/workflows/` in minutes and understand exactly what each step does.
 
-- **Visual editing with OctoLab**: When you need tweaks, click **Open in OctoLab** to adjust runners, matrices, env, and permissions visually. Export clean YAML without hand-editing, while keeping best practices intact.
+- **Visual editing**: When you need to make adjustments, click **Open in OctoLab** to visually tweak the various elements of the workflow. Export clean YAML without having to edit it manually, keeping best practices intact.
 
 
 ## 🚀 Quick start

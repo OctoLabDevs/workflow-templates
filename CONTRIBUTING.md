@@ -27,7 +27,6 @@ templates/<stack>/<template-id>/
 
 ## ✅ Before opening a PR
 
-- Lint passes with **yamllint** and **actionlint**.
 - README and meta.json are complete.
 - Template follows folder structure and naming conventions.
 - Triggers (`on:`) are reasonable and documented.
