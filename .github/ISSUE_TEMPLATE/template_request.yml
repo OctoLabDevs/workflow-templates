@@ -1,0 +1,30 @@
+name: "Template request"
+description: Propose a new workflow template
+labels: ["template-request", "help wanted"]
+body:
+  - type: input
+    id: stack
+    attributes:
+      label: Stack / Ecosystem
+      description: e.g., Node.js, Python, Docker, AWS, Nx
+      placeholder: "Node.js"
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: What should the workflow do?
+      description: Short description and desired steps
+      placeholder: "PR verify with lint + tests; cache deps; test matrix"
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements / Secrets / Permissions
+      description: Any secrets, tokens, or minimal permissions required
+  - type: textarea
+    id: links
+    attributes:
+      label: Related links
+      description: Actions, docs, prior workflows, etc.

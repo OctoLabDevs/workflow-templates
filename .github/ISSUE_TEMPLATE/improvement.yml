@@ -1,0 +1,13 @@
+name: "Improvement"
+description: Suggest an improvement to a template
+labels: ["enhancement"]
+body:
+  - type: input
+    id: template
+    attributes:
+      label: Template path
+      placeholder: "templates/node/pr-verify"
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea / Rationale

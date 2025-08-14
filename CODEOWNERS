@@ -1,0 +1,5 @@
+# Default owners
+* @octolab/core-team
+
+# Stack-specific (adjust handles)
+templates/node/ @octolab/node-maintainers

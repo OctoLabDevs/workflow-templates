@@ -1,0 +1,26 @@
+name: "Bug report"
+description: Report an issue in an existing template
+labels: ["bug"]
+body:
+  - type: input
+    id: template
+    attributes:
+      label: Template path
+      placeholder: "templates/node/pr-verify"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Error
+      render: shell
