@@ -1,31 +1,38 @@
-# Contributing
+<h1 align="center">🤝 Contributing to OctoLab Workflow Templates</h1>
 
-Thanks for helping improve these templates!
+<p align="center">
+  Help us improve these production-ready GitHub Actions templates. Add new ones, refine existing workflows, or fix issues — every contribution makes CI/CD easier for everyone.
+</p>
 
-## Workflow template rules
+## 🧭 Guidelines
+
 - Keep YAML **minimal and explicit**.
-- Default to **least-privilege** `permissions`.
-- Use `secrets.*` and `vars.*` instead of hardcoded values.
-- Add a short **README** next to each template with: what it does, prerequisites, how to use, permissions, troubleshooting.
-- Provide a **meta.json** for indexing.
+- Use **least-privilege** `permissions`.
+- Never hardcode secrets — use `secrets.*` or `vars.*`.
+- Add a short **README.md** explaining:
+  - What it does
+  - How to use it
+  - Prerequisites
+  - Permissions required
+- Include a **meta.json** with id, name, description, tags, runtimes, and version.
 
-## Lint & validate
-We run `yamllint` and `actionlint` on PRs. Please ensure both pass.
+## 📂 Folder structure
 
-## Folder structure
+```bash
+templates/<stack>/<template-id>/
+├─ workflow.yml
+├─ README.md
+└─ meta.json
+```
 
-templates/<stack>/<template>/
+## ✅ Before opening a PR
 
-workflow.yml
+- Lint passes with **yamllint** and **actionlint**.
+- README and meta.json are complete.
+- Template follows folder structure and naming conventions.
+- Triggers (`on:`) are reasonable and documented.
 
-README.md
+## 📬 Communication
 
-meta.json
-
-
-## Releasing & indexing
-On merge to `main`, we build/update `templates.json` via CI. On tagged releases we publish a changelog summary in the release notes.
-
-## Communication
-- Questions / proposals → [Discussions](../../discussions)
-- Bugs / Improvements → [Issues](../../issues)
+- **Questions / ideas** → [Discussions](../../discussions)  
+- **Bugs / improvements** → [Issues](../../issues)

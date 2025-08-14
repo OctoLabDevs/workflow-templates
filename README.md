@@ -1,7 +1,6 @@
-<!-- Social cover suggestion (replace with your image URL) -->
-<!-- <p align="center"><img src="https://www.octolab.app/og/github-actions-templates.png" alt="OctoLab — GitHub Actions Templates" width="100%"></p> -->
+<p align="center"><img src="docs/workflow templates logo.png" alt="OctoLab — GitHub Actions Templates" width="100%"></p>
 
-<h1 align="center">Production-Ready GitHub Actions Templates for CI/CD</h1>
+<h1 align="center">🐙 Production-Ready GitHub Actions Templates for CI/CD</h1>
 
 <p align="center">
   From zero to green checks in minutes. Copy a proven workflow, see what matters, and customize safely with our visual editor in <a href="https://www.octolab.app/?utm_source=github&utm_medium=repo&utm_campaign=workflow-templates">OctoLab</a>.
@@ -9,7 +8,7 @@
 
 <p align="center">
   <a href="https://www.octolab.app/?utm_source=github&utm_medium=repo&utm_campaign=workflow-templates">
-    <img src="https://img.shields.io/badge/🐙%20OctoLab-LAUNCH%20VISUAL%20EDITOR-00e3ff?style=for-the-badge&labelColor=ff4d9d" alt="Launch Visual Editor — OctoLab">
+    <img src="https://img.shields.io/badge/OctoLab-LAUNCH%20VISUAL%20EDITOR-00e3ff?style=for-the-badge&labelColor=ff4d9d" alt="Launch Visual Editor — OctoLab">
   </a>
 </p>
 
