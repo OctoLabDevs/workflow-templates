@@ -1,0 +1,35 @@
+name: Node.js pull request verify
+
+on:
+  pull_request: {}
+
+jobs:
+  verify:
+    name: verify
+    runs-on: ubuntu-latest
+    steps:
+      - id: checkout-step
+        name: Checkout code
+        uses: actions/checkout@v4
+
+      - id: setup-node-step
+        name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - id: install-dependencies-step
+        name: Install dependencies
+        run: npm install
+
+      - id: lint-step
+        name: Run lint
+        run: npm run lint
+
+      - id: test-step
+        name: Run tests
+        run: npm run test
+        
+      - id: build-step
+        name: Build package
+        run: npm run build
