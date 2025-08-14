@@ -7,9 +7,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.octolab.app/?utm_source=github&utm_medium=repo&utm_campaign=workflow-templates">
-    <img src="https://img.shields.io/badge/OctoLab-LAUNCH%20VISUAL%20EDITOR-00e3ff?style=for-the-badge&labelColor=ff4d9d" alt="Launch Visual Editor — OctoLab">
-  </a>
+  <a href="#-why-this-repository">✨ Why this repository?</a> |
+  <a href="#-quick-start">🚀 Quick start</a> |
+  <a href="#-templates">📚 Templates</a> |
+  <a href="#-contributing">🤝 Contributing</a> |
+  <a href="#-license">📄 License</a>
 </p>
 
 ---
