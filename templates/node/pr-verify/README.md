@@ -3,6 +3,10 @@
 A production-ready GitHub Actions workflow to verify the quality of pull requests in a Node.js project.  
 It checks out the code, sets up Node.js, installs dependencies, runs linting, executes tests, and builds the package — ensuring changes are ready to merge.
 
+<p align="center">
+<a href="./workflow.yml">See the workflow</a>
+</p>
+
 ## 📋 What it does
 
 1. **Checkout code**: Retrieves the pull request branch.
