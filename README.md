@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/workflow templates logo.png" alt="OctoLab — GitHub Actions Templates" width="100%"></p>
+<p align="center"><img src="docs/readme_logo.png" alt="OctoLab — GitHub Actions Templates" width="100%"></p>
 
 <h1 align="center">🐙 Production-Ready GitHub Actions Templates for CI/CD</h1>
 
