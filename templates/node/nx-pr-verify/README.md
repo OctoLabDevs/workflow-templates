@@ -63,4 +63,4 @@ on:
 
 ## 🐙 Edit it visually!
 
-Easily adjust Node.js versions, steps, or triggers visually: [Open in OctoLab](https://www.octolab.app/edit/templates/nx-pr-verify)
+Easily adjust Node.js versions, steps, or triggers visually: [Open in OctoLab](https://www.octolab.app/templates/nx-pr-verify)
