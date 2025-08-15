@@ -68,13 +68,19 @@ git push
 
 Verify and ensure the quality of pull requests in a Node.js codebase.
 
-[View template](templates/node/pr-verify/README.md) | [Open in OctoLab](https://www.octolab.app/editor/templates/node-pr-verify?utm_source=github&utm_medium=repo&utm_campaign=workflow-templates) 
+[View template](templates/node/pr-verify/README.md) | [Open in OctoLab](https://www.octolab.app/templates/node-pr-verify?utm_source=github&utm_medium=repo&utm_campaign=workflow-templates) 
 
 #### NX pull request verify
 
 Verify and ensure the quality of pull requests in a monorepo managed with NX.
 
-[View template](templates/node/nx-pr-verify/README.md) | [Open in OctoLab](https://www.octolab.app/editor/templates/nx-pr-verify?utm_source=github&utm_medium=repo&utm_campaign=workflow-templates) 
+[View template](templates/node/nx-pr-verify/README.md) | [Open in OctoLab](https://www.octolab.app/templates/nx-pr-verify?utm_source=github&utm_medium=repo&utm_campaign=workflow-templates) 
+
+#### Publish to NPM
+
+Publish and release packages to NPM automatically after merging.
+
+[View template](templates/node/npm-publish/README.md) | [Open in OctoLab](https://www.octolab.app/templates/npm-publish?utm_source=github&utm_medium=repo&utm_campaign=workflow-templates) 
 
 ## 🤝 Contributing
 

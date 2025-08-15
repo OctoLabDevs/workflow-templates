@@ -1,0 +1,60 @@
+# -----------------------------------------------------------------------------
+# Publish to NPM
+#
+# 📄 Description:
+#   Builds and publishes a Node.js package to the NPM registry when changes
+#   are pushed to the main branch. Runs tests before publishing to ensure
+#   stability and quality.
+#
+# 📥 Expected inputs:
+#   - node-version: Node.js version to use (default: 22)
+#   - NPM_TOKEN: NPM authentication token with publish permissions (secret)
+#
+# 🔗 References:
+#   - https://github.com/actions/checkout
+#   - https://github.com/actions/setup-node
+#   - https://github.com/JS-DevTools/npm-publish
+#   - https://docs.npmjs.com/creating-and-publishing-scoped-public-packages
+#
+# -----------------------------------------------------------------------------
+
+name: Publish to NPM
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    name: publish
+    runs-on: ubuntu-latest
+    steps:
+      - id: checkout-step
+        name: Checkout code
+        uses: actions/checkout@v4
+
+      - id: setup-node-step
+        name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          registry-url: "https://registry.npmjs.org"
+
+      - id: install-dependencies-step
+        name: Install dependencies
+        run: npm install
+
+      - id: test-step
+        name: Run tests
+        run: npm run test
+
+      - id: build-step
+        name: Build package
+        run: npm run build
+
+      - id: npm-publish-step
+        name: Publish to NPM
+        uses: JS-DevTools/npm-publish@v3
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
