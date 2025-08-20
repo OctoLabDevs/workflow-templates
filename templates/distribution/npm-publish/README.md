@@ -1,5 +1,3 @@
-# Node.js Pull Request Verify
-
 # Publish to NPM
 
 A production-ready GitHub Actions workflow to build and publish a Node.js package to the NPM registry when changes are pushed to the `main` branch.  
